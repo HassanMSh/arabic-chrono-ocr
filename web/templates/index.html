@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Chronological OCR Arabic</title>
+</head>
+<body>
+  <h1>Search Events</h1>
+  <form method="get">
+    <input type="text" name="date" placeholder="YYYY-MM-DD">
+    <button type="submit">Search</button>
+  </form>
+  <ul>
+    {% for d, e in results %}
+      <li><b>{{ d }}</b>: {{ e }}</li>
+    {% endfor %}
+  </ul>
+</body>
+</html>
