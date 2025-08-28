@@ -3,5 +3,9 @@ venv/
 
 # Books
 books/*
-images/
+images/*
 .vscode/
+
+# Kraken
+models/*
+ocr/*
