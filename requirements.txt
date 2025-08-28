@@ -2,4 +2,5 @@ Flask==3.1.2
 sqlite-utils==3.38
 kraken==5.3.0
 pillow==11.3.0
-opencv-python==3.4.0.12
+pdf2image==1.17.0
+#opencv-python==3.4.0.12

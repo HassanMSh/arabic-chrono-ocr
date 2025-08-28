@@ -1,0 +1,11 @@
+services:
+  ocr:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ocr
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/app/data  # persistent storage for SQLite DB and OCR output
+    restart: unless-stopped
